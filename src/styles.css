@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(71, 150, 74);
+}
+
+.red {
+  background-color: rgb(243, 124, 124);
+}
+
+.none {
+  display: none;
+}

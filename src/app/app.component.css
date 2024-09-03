@@ -1,0 +1,35 @@
+p {
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 1%;
+  margin: 2%;
+  box-shadow: 5px 5px 5px 2px rgba(88, 88, 91, 0.5);
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 3px 3px 3px 2px rgba(88, 88, 91, 0.5);
+  color: rgb(222, 46, 46);
+}
+
+.list-item {
+  font-size: large;
+  font-weight: 600;
+  text-align: center;
+}
+
+.conditional-greeeting {
+  margin: 1%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+}
