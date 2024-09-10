@@ -1,6 +1,7 @@
 p {
   text-align: center;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -21,9 +22,30 @@ button:hover {
 }
 
 .list-item {
+  text-align: center;
+  background-color: rgb(196, 181, 181);
+  margin: 3% 10%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 2px rgba(88, 88, 91, 0.5);
+  cursor: pointer;
+}
+.list-item:hover {
+  box-shadow: 3px 3px 3px 2px rgba(88, 88, 91, 0.5);
+  color: rgb(222, 46, 46);
+}
+
+.list-item-title {
   font-size: large;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
+  padding: 5px 10px;
+}
+.list-item-text {
+  font-size: large;
+  font-weight: 400;
+  color: rgb(93, 88, 88);
+  text-align: left;
+  padding: 0px 10px 5px 10px;
 }
 
 .conditional-greeeting {
@@ -32,4 +54,10 @@ button:hover {
   color: #ffffff;
   font-size: 28px;
   font-weight: 600;
+}
+
+.notes-container,
+.add-container {
+  display: flex;
+  justify-content: center;
 }
