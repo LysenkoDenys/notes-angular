@@ -2,14 +2,15 @@
   <div class="content">
     <div class="left-side">
       <app-header />
-      <app-add-note class="add-container" />
+      <router-outlet />
+      <!-- <app-add-note class="add-container" /> -->
       <app-notes-list class="notes-container" />
-      @for (item of notes; track $index) {
+      <!-- @for (item of notes; track $index) {
       <div class="list-item">
         <div class="list-item-title">{{ item.title }}</div>
         <div class="list-item-text">{{ item.text }}</div>
       </div>
-      }
+      } -->
       <!-- <h1>My Notes App</h1> -->
       <!-- <h2>{{ title }}</h2> -->
       <!-- <p>Root component</p> -->

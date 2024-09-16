@@ -1,1 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.notes {
+  width: 80%;
+  padding: 0px;
+}
+.notes li {
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  text-align: left;
+}
+button {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 20px;
+  cursor: pointer;
+}
+nav button {
+  width: auto;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 10pt;
+  border: none;
+  text-decoration: none;
+}

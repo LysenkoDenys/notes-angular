@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { NotesListComponent } from './notes-list/notes-list.component';
 import { AddNoteComponent } from './add-note/add-note.component';
+import { RouterModule } from '@angular/router';
 import { NOTES } from '../notes';
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { NOTES } from '../notes';
     MenuComponent,
     NotesListComponent,
     AddNoteComponent,
+    RouterModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
