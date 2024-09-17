@@ -7,19 +7,22 @@ import {
 } from '@angular/forms';
 FormGroup;
 import { NOTES } from '../../notes';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-note',
   standalone: true,
-  imports: [ReactiveFormsModule],
   templateUrl: './add-note.component.html',
   styleUrl: './add-note.component.css',
+  imports: [ReactiveFormsModule],
 })
 export class AddNoteComponent {
   addNoteForm = new FormGroup({
     title: new FormControl('', Validators.required),
-    text: new FormControl('', Validators.required),
+    text: new FormControl(''),
   });
+
+  constructor(private router: Router) {} // Inject Router
 
   addNote() {
     let title = this.addNoteForm.value.title ?? '';
@@ -38,6 +41,9 @@ export class AddNoteComponent {
       };
       NOTES.unshift(newNote);
       this.addNoteForm.reset();
+
+      // Navigate to another page after the note is added
+      this.router.navigate(['/']);
     }
   }
 }

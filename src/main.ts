@@ -10,6 +10,9 @@ const routes: Routes = [
   { path: 'new', component: AddNoteComponent },
 ];
 
-bootstrapApplication(AppComponent, appConfig).catch((err) =>
-  console.error(err)
-);
+bootstrapApplication(AppComponent, {
+  providers: [
+    provideRouter(routes), // Provide the routes for the app
+    ...appConfig.providers, // Include other providers from your app config
+  ],
+}).catch((err) => console.error(err));

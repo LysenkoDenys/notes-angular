@@ -1,6 +1,6 @@
 <div class="container">
   <nav>
-    <button routerLink="./new">Add New</button>
+    <button [routerLink]="'/new'">Add New</button>
   </nav>
   <ul class="notes">
     @for (note of notes; track $index) {

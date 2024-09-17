@@ -4,16 +4,21 @@
     <div>
       <label for="note-title">
         Title:
-        <input type="text" formControlName="title" id="note-title" />
+        <input id="note-title" formControlName="title" />
       </label>
     </div>
     <div>
       <label for="note-text">
         Text:
-        <input type="text" formControlName="text" id="note-text" />
+        <input id="note-text" formControlName="text" />
       </label>
     </div>
-    <button class="button" type="submit" [disabled]="!addNoteForm.valid">
+    <button
+      type="button"
+      class="button"
+      type="submit"
+      [disabled]="!addNoteForm.valid"
+    >
       Add Note
     </button>
   </form>
