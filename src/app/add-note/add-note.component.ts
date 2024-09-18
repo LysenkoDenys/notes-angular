@@ -46,4 +46,8 @@ export class AddNoteComponent {
       this.router.navigate(['/']);
     }
   }
+  backToHome() {
+    // Navigate to another page after the note is added
+    this.router.navigate(['/']);
+  }
 }

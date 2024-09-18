@@ -4,13 +4,13 @@
     <div>
       <label for="note-title">
         Title:
-        <input id="note-title" formControlName="title" />
+        <input id="note-title" formControlName="title" required />
       </label>
     </div>
     <div>
       <label for="note-text">
         Text:
-        <input id="note-text" formControlName="text" />
+        <input id="note-text" formControlName="text" required />
       </label>
     </div>
     <button
@@ -21,5 +21,7 @@
     >
       Add Note
     </button>
+    <!-- it is mine for UI improve: -->
+    <button class="button-back" (click)="backToHome()">Back to List</button>
   </form>
 </div>

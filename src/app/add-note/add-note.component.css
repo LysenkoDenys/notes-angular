@@ -84,3 +84,25 @@ input {
   border: none;
   outline: none;
 }
+
+/* it is mine for UI improve: */
+.button-back {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #10569f;
+  color: #fff;
+  font-size: 10pt;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 2px rgba(88, 88, 91, 0.5);
+}
+
+.button-back:hover {
+  box-shadow: 3px 3px 3px 2px rgba(88, 88, 91, 0.5);
+}
+
+.button-back:active {
+  box-shadow: 2px 2px 2px 1px rgba(88, 88, 91, 0.5);
+}

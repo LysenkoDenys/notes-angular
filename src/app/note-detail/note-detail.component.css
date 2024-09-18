@@ -43,3 +43,7 @@ button:active {
 .note-title {
   font-weight: 600;
 }
+
+.button-del {
+  background-color: #c81b24;
+}

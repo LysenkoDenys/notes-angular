@@ -15,7 +15,7 @@ export const NOTES: Note[] = [
     text: 'To be, or not to be: that is the question.',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Jason Statham',
     text: 'Your body is like a piece of dynamite. You can tap it with a pencil all day, but you`ll never make it explode. You hit it once with a hammer: Bang! Get serious. Do 40 hard minutes, not an hour and half of nonsense. It`s so much more rewarding.',
   },
