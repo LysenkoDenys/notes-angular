@@ -2,7 +2,7 @@
 
 ### The app helps you to manage notes (learn basics of Angular)
 
-<p>The app deployed here:</p>
+<p>The app is deployed here:</p>
 <a href='https://notes-angular-beta.vercel.app/'>notes-angular-beta.vercel.app</a>
 
 <p>Sample:</p>
